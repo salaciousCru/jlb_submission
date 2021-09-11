@@ -14,7 +14,7 @@
 README.md:
 	touch README.md
 	echo "#The Unix Workbench - JB Submission" > README.md
-	echo "**make file date and time**" >> README.md
+	echo "- **make file date and time:**" >> README.md
 	ls -l | egrep 'makefile' >> README.md 
-	echo "**number of code lines in guessinggame**" >> README.md
+	echo "- **number of code lines in guessinggame:**" >> README.md
 	wc -l guessinggame.sh >> README.md

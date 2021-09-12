@@ -29,3 +29,6 @@ while [[ $response -ne $number ]]; do
     fi
 done
 echo "Congratulations, $response is the correct answer!"
+
+#clean
+rm filesnumber.txt
